@@ -38,7 +38,7 @@ int main()
         cin>>a[i][j];
      }
   }
-  cout<<"before rotatn\n";
+  //cout<<"before rotatn\n";
   display();
   rotate_matrix(a,row,col);
   cout<<"endl"<<"aftr rotan\n";
