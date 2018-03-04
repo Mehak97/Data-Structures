@@ -46,10 +46,10 @@ void printGivenLevel(struct node* root, int level)
         return;
     if (level == 1)
       {
-	if(a[root->val+5]==0)
-	{
-		a[root->val+5]=root->data;
-	}
+	    if(a[root->val+5]==0)
+	       {
+		      a[root->val+5]=root->data;
+           }
       }
     else if (level > 1)
     {
